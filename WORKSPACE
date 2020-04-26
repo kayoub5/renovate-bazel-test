@@ -22,7 +22,7 @@ go_repository(
 git_repository(
     name = "build_bazel_rules_nodejs",
     remote = "https://github.com/bazelbuild/rules_nodejs.git",
-    tag = "0.3.1",
+    tag = "1.6.0",
 )
 
 load("@build_bazel_rules_nodejs//:defs.bzl", "node_repositories")
